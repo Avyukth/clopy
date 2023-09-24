@@ -1,4 +1,4 @@
-use leptos::leptos_dom::ev::{SubmitEvent};
+use leptos::leptos_dom::ev::SubmitEvent;
 use leptos::*;
 use serde::{Deserialize, Serialize};
 use serde_wasm_bindgen::to_value;

@@ -11,32 +11,32 @@
     "version": "0.0.0"
   },
   "tauri": {
-"cli": {
-  "description": "A command-line interface for the Clipboard Store application.",
-  "longDescription": "This CLI provides various utilities and functionalities for interacting with the Clipboard Store application.",
-  "beforeHelp": "Usage:\nFor Windows and Linux:\n  Copy: ctrl+c\n  Paste: ctrl+v\n  Special Paste: ctrl+shift+v\nFor Mac:\n  Copy: cmd+c\n  Paste: cmd+v\n  Special Paste: cmd+shift+v",
-  "afterHelp": "For more information, visit https://clipboardstore.example.com/docs",
-  "args": [
-    {
-      "name": "arg1",
-      "description": "Description of arg1",
-      "required": false
-    }
-  ],
-  "subcommands": {
-    "subcommand-name": {
-      "description": "Description of the subcommand",
-      "longDescription": "Long description of the subcommand",
+    "cli": {
+      "description": "A command-line interface for the Clipboard Store application.",
+      "longDescription": "This CLI provides various utilities and functionalities for interacting with the Clipboard Store application.",
+      "beforeHelp": "Usage:\nFor Windows and Linux:\n  Copy: ctrl+c\n  Paste: ctrl+v\n  Special Paste: ctrl+shift+v\nFor Mac:\n  Copy: cmd+c\n  Paste: cmd+v\n  Special Paste: cmd+shift+v",
+      "afterHelp": "For more information, visit https://clipboardstore.example.com/docs",
       "args": [
         {
-          "name": "subarg1",
-          "description": "Description of subarg1",
+          "name": "arg1",
+          "description": "Description of arg1",
           "required": false
         }
-      ]
-    }
-  }
-},
+      ],
+      "subcommands": {
+        "subcommand-name": {
+          "description": "Description of the subcommand",
+          "longDescription": "Long description of the subcommand",
+          "args": [
+            {
+              "name": "subarg1",
+              "description": "Description of subarg1",
+              "required": false
+            }
+          ]
+        }
+      }
+    },
     "allowlist": {
       "all": false,
       "shell": {
